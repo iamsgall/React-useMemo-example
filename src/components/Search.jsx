@@ -22,7 +22,7 @@ export default function Search() {
       users.filter(user => {
         return user.name.toLowerCase().includes(search.toLowerCase());
       }),
-    // setSearch(result);
+    // eslint-disable-next-line
     [search]
   );
 
